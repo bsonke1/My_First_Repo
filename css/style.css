@@ -1,0 +1,98 @@
+nav {
+    height: 60px;
+    background-color: lightgrey;
+  }
+
+a{
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(240, 240, 240);
+}
+
+.inline-block{
+  display: inline-block;
+  padding: 21px;
+  background-color: rgb(66, 66, 66);
+  width: 100px;
+  text-align: center;
+  color: white;
+}
+
+.wrapper{
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  width: 30%;
+  height:100%;
+}
+
+.right{
+  width: 70%;
+  height:100%;
+}
+
+.myPet{
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.venusPhoto{
+  height: 200px; 
+}
+
+.name{
+  font-weight: bold;
+}
+
+.stats{
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 66%;
+}
+
+h6{
+  font-weight: normal; 
+  font-size: .75rem;
+}
+
+.summary {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.summaryPhoto{
+  height: 400px;
+  display: float;
+  float: left; 
+  padding: 15px;
+}
+
+.pics{
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.threePic{
+  height: 200px;
+  margin: 25px;
+}
